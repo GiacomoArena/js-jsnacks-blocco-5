@@ -42,17 +42,14 @@ const studenti = [
     voti:[4,8,7,6,7],
   }
 ]
-
+const container = document.querySelector('.container')
 let media; 
 
-studenti.forEach((studente) => { 
-media = calcolo_media(studente);
-console.log(media);
-})
 const datiUtente  =  studenti.map(studente => {
-  return `${studente.name} ${studente.lastname} N° ${studente.numMatricola} media voti: ${media}`
+  return ` <br>${studente.name} ${studente.lastname} N° ${studente.numMatricola} media voti: ${calcolo_media(studente)} <br>`
 })
 console.log(datiUtente);
+container.innerHTML += datiUtente
 
 
 
