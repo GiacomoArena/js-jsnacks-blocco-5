@@ -54,11 +54,11 @@ container.innerHTML += datiUtente
 
 
 function calcolo_media(element){
-  let sum = 0;
+  let somma = 0;
   let media;
   for(let i = 0; i < element.voti.length; i++){
-    sum += element.voti[i];
+    somma += element.voti[i];
   }
-  media = sum/element.voti.length;
+  media = somma/element.voti.length;
   return media;
 }
