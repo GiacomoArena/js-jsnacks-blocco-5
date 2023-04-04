@@ -42,31 +42,18 @@ const studenti = [
     voti:[4,8,7,6,7],
   }
 ]
-/*let media =0
-studenti.forEach((element) => {
-  const mediaVoti = studenti.map((voto, i, voti)=> {
-    media += element.voti[i]
-    return   media
-  })
-  console.log(mediaVoti);
-
-})*/
 
 let media; 
 
 studenti.forEach((studente) => { 
 media = calcolo_media(studente);
 console.log(media);
-
 })
 const datiUtente  =  studenti.map(studente => {
-  return `${studente.name} ${studente.lastname} ${studente.numMatricola} ${media}`
+  return `${studente.name} ${studente.lastname} N° ${studente.numMatricola} media voti: ${media}`
 })
 console.log(datiUtente);
 
-/*const datiUtente  =  studenti.map(studente => {
-  return `${studente.name} ${studente.lastname} matricola N° ${studente.numMatricola}`
-})*/
 
 
 function calcolo_media(element){
@@ -74,7 +61,6 @@ function calcolo_media(element){
   let media;
   for(let i = 0; i < element.voti.length; i++){
     sum += element.voti[i];
-    console.log(element.voti[i]);
   }
   media = sum/element.voti.length;
   return media;
