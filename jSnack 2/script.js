@@ -43,7 +43,7 @@ const studenti = [
   }
 ]
 const container = document.querySelector('.container')
-let media; 
+
 
 const datiUtente  =  studenti.map(studente => {
   return ` <br>${studente.name} ${studente.lastname} N° ${studente.numMatricola} media voti: ${calcolo_media(studente)} <br>`
