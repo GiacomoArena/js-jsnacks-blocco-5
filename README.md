@@ -12,11 +12,11 @@ Dobbiamo creare un nuovo elenco dove ogni studente ha un nome-cognome, matricola
 ## *SNACK 4*
 -  Abbiamo un elenco degli studenti di una facoltà , identificati da _id_, _Nome_ e _somma totale_
 dei loro voti di esame...
-1. Per preparare l’aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti:
+- 1. Per preparare l’aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti:
 creare una lista contenente il loro nome tutto in maiuscolo
 ES (Marco della Rovere => MARCO DELLA ROVERE);
-2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
-3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id
+- 2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
+- 3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id
 superiore a 120
 Questo è l’elenco degli studenti:
 Id  Name                             Grades
@@ -27,11 +27,16 @@ Id  Name                             Grades
 196 Luigi Grimaldello 	    68
 102 Piero della Francesca 50
 120 Francesca da Polenta  84
-(NB: Si inverte l’ordine delle lezioni objects 3 e 2)
+
+
+
 ## *SNACK 5*
 -  Creare un array di oggetti:
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà : nome e peso.
 Stampare in console la bici con peso minore utilizzando destructuring e template literal
+
+
+
 ## *SNACK 6*
 -  Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà : nome,
 punti fatti, falli subiti.
